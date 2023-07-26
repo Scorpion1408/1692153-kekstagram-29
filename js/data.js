@@ -28,7 +28,7 @@ const NAMES = [
 
 const getComment = () => ({
   id: getRandomNumberFromRange(1, 25),
-  avatar: `img/${getRandomNumberFromRange(1, 6)}.svg`,
+  avatar: `img/avatar-${getRandomNumberFromRange(1, 6)}.svg`,
   message: MESSAGES[getRandomNumberFromRange(0, MESSAGES.length)],
   name: NAMES[getRandomNumberFromRange(0, NAMES.length)]
 });
